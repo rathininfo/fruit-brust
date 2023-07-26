@@ -23,7 +23,7 @@
 </head>
 <body class="font-lato">
     <!-- start header section -->
-    <header>
+    <header class="px-12 lg:px-0">
         <!-- start nav section -->
         <nav class="max-w-screen-xl m-auto">
             <div class="navbar flex justify-between bg-[#ffffff] lg:bg-[#F85559] rounded-full mt-12 mb-12 px-6 py-5 text-[#ffffff]">
@@ -74,7 +74,7 @@
         <!-- end nav section -->
 
         <!-- start banner section -->
-        <section class="max-w-screen-xl m-auto">
+        <section class="max-w-screen-xl m-auto  lg:px-0">
             <div>
                 <div class="carousel w-full rounded-lg">
                     <div id="slide1" class="carousel-item relative w-full h-[580px]">
@@ -83,7 +83,7 @@
                             <div class="hero-overlay bg-opacity-50 bg-[#000000]"></div>
                             <div class="hero-content text-center text-neutral-content">
                               <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
+                                <h1 class="mb-5 text-3xl lg:text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
                                 <p class="mb-5 font-medium text-xl text-[#ffffff]">We supply highly quality organic products</p>
                                 <button class="btn btn-error text-[#ffffff]">Shop Now</button>
                               </div>
@@ -102,7 +102,7 @@
                         <div class="hero-overlay bg-opacity-60 bg-[#000000]"></div>
                         <div class="hero-content text-center text-neutral-content">
                           <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
+                            <h1 class="mb-5 text-3xl lg:text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
                             <p class="mb-5 font-medium text-xl text-[#ffffff]">We supply highly quality organic products</p>
                             <button class="btn btn-error text-[#ffffff]">Shop Now</button>
                           </div>
@@ -121,7 +121,7 @@
                             <div class="hero-overlay bg-opacity-50 bg-[#000000]"></div>
                             <div class="hero-content text-center text-neutral-content">
                               <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
+                                <h1 class="mb-5 text-3xl lg:text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
                                 <p class="mb-5 font-medium text-xl text-[#ffffff]">We supply highly quality organic products</p>
                                 <button class="btn btn-error text-[#ffffff]">Shop Now</button>
                               </div>
@@ -139,7 +139,7 @@
                         <div class="hero-overlay bg-opacity-70 bg-[#000000]"></div>
                         <div class="hero-content text-center text-neutral-content">
                           <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
+                            <h1 class="mb-5 text-3xl lg:text-5xl text-[#ffffff] font-black">Exotic tastes at your doorstep</h1>
                             <p class="mb-5 font-medium text-xl text-[#ffffff]">We supply highly quality organic products</p>
                             <button class="btn btn-error text-[#ffffff]">Shop Now</button>
                           </div>
@@ -157,27 +157,27 @@
          <!-- end banner section -->
 <!-- froute section -->
 <section class="max-w-screen-lg m-auto ">
-    <div class="relative">
-        <div class="absolute -top-28">
-    <div class="flex gap-14 items-center justify-between drop-shadow-md bg-[#ffffff] px-16 py-12 rounded-lg">
-        <div class="w-full">
-            <img src="images/fruit1.png" alt="">
+    <div class="lg:relative flex items-center justify-center lg:mt-0 mt-40">
+        <div class="lg:absolute lg:-top-28">
+    <div class=" grid grid-cols-2 justify-center items-center lg:flex flex-col md:flex-col lg:flex-row gap-14  lg:justify-between lg:drop-shadow-md bg-[#ffffff] lg:px-16 lg:py-12 rounded-lg justify-center">
+        <div class="lg:w-full">
+            <img class="w-full" src="images/fruit1.png" alt="">
         </div>
 
-        <div class="w-full">
-            <img src="images/fruit2.png" alt="">
+        <div class="lg:w-full">
+            <img class="w-full" src="images/fruit2.png" alt="">
         </div>
 
-        <div class="w-full">
+        <div class="lg:w-full">
             <img src="images/fruit3.png" alt="">
         </div>
 
-        <div class="w-full">
-            <img src="images/fruit4.png" alt="">
+        <div class="lg:w-full">
+            <img class="w-full" src="images/fruit4.png" alt="">
         </div>
 
         <div class="w-full">
-            <img src="images/fruit5.png" alt="">
+            <img class="w-full" src="images/fruit5.png" alt="">
         </div>
     </div>
 </div>
@@ -189,10 +189,10 @@
 
 <main>
 <!-- start Deal of the day section -->
-<section class="max-w-screen-xl m-auto mt-[256px]">
-    <div class="flex flex-col md:flex-col lg:flex-row items-center justify-between gap-72">
+<section class="max-w-screen-xl m-auto mt-[100px] lg:mt-[256px] px-12 lg:px-0">
+    <div class="flex flex-col md:flex-col lg:flex-row items-center justify-between gap-8 lg:gap-72">
         <div class="space-y-2 text-center md:text-center lg:text-left">
-            <h2 class="font-black text-[48px]"> Deal of the day </h2>
+            <h2 class="font-black text-[40px] lg:text-[48px]"> Deal of the day </h2>
                 <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
 
@@ -226,7 +226,7 @@
     
 <!-- froute items -->
 <section>
-    <div class="flex flex-col md:flex-col lg:flex-row justify-around items-center mt-12 ">
+    <div class="flex flex-col md:flex-col lg:flex-row justify-around items-center mt-12 gap-14 lg:gap-8">
       <div class="card bg-base-100 shadow-xl px-12">
         <figure class="px-8 pt-10 w-full">
           <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -252,7 +252,7 @@
           <button class="px-4 py-2 text-[#F85559]" onclick="rathindra1.showModal()">Details</button>
           <dialog id="rathindra1" class="modal">
             <form method="dialog" class="modal-box">
-              <div class="card bg-base-100 shadow-xl px-12">
+              <div class="card bg-base-100">
                 <figure class="px-8 pt-10 w-full">
                   <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -308,7 +308,7 @@
                   <button class="px-4 py-2 text-[#F85559]" onclick="rathindra2.showModal()">Details</button>
                   <dialog id="rathindra2" class="modal">
                     <form method="dialog" class="modal-box">
-                      <div class="card bg-base-100 shadow-xl px-12">
+                      <div class="card bg-base-100 ">
                         <figure class="px-8 pt-10 w-full">
                           <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -362,7 +362,7 @@
                       <button class="px-4 py-2 text-[#F85559]" onclick="rathindra3.showModal()">Details</button>
                       <dialog id="rathindra3" class="modal">
                         <form method="dialog" class="modal-box">
-                          <div class="card bg-base-100 shadow-xl px-12">
+                          <div class="card bg-base-100">
                             <figure class="px-8 pt-10 w-full">
                               <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
                             </figure>
@@ -416,7 +416,7 @@
                           <button class="px-4 py-2 text-[#F85559]" onclick="rathindra4.showModal()">Details</button>
                           <dialog id="rathindra4" class="modal">
                             <form method="dialog" class="modal-box">
-                              <div class="card bg-base-100 shadow-xl px-12">
+                              <div class="card bg-base-100">
                                 <figure class="px-8 pt-10 w-full">
                                   <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
                                 </figure>
@@ -457,7 +457,7 @@
 </section>
 <!-- End Deal of the day section -->
  <!-- start team section -->
- <section class="max-w-screen-xl m-auto mt-[140px]">
+ <section class="max-w-screen-xl m-auto mt-[140px]  px-12 lg:px-0">
     <div class="hero min-h-screen" style="background-image: url('images/team.png');">
         <div class="hero-overlay bg-opacity-70 bg-[#000000]"></div>
 
@@ -576,7 +576,7 @@
   <!-- end team section -->
 
 <!-- Start Choose Us section -->
-<section class="max-w-screen-xl m-auto mt-[140px]">
+<section class="max-w-screen-xl m-auto mt-[140px]  px-12 lg:px-0">
     <div class="text-center mb-12">
         <h2 class="font-black text-[48px]">Why Choose Us</h2>
         <p class=" px-4 md:px-36 lg:px-56 my-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -621,7 +621,7 @@
             </div>
 
 
-<div class=" w-full lg:w-6/12 mx-4">
+<div class=" w-full lg:w-6/12 mx-4 p-8 lg:p-2">
     <img class="w-full" src="images/whychoose1.png" alt="">
 </div>
    
